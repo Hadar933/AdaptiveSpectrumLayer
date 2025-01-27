@@ -11,7 +11,6 @@ from Utilities import utils
 
 if __name__ == '__main__':
     data_name: Literal['ours', 'prssm'] = 'prssm'
-    exp_time = '22_11_2023' if data_name == 'ours' else '10_10_2023'
     train_percent = 0.75
     val_percent = 0.1
     intersect = 1
@@ -40,8 +39,8 @@ if __name__ == '__main__':
     ltsf_fedformer_name = os.path.join('LTSF', 'FedFormer')
 
    
-    forces_path = "./Data/forces_clean.pt"
-    kinematics_path = "./Data/kinematics_clean.pt"
+    forces_path = "./Data/forces_clean.pt" if data_name == "ours" else "./Data/forces_prssm.pt"
+    kinematics_path = "./Data/kinematics_clean.pt" if data_name == "ours" else "./Data/kinematics_prssm.pt"
     forces, kinematics = torch.load(forces_path), torch.load(kinematics_path)
     if isinstance(forces, list) and isinstance(kinematics, list):
         input_size, output_size = forces[0].shape[-1], kinematics[0].shape[-1]
