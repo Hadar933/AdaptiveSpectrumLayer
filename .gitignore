@@ -1,0 +1,7 @@
+Results
+.venv
+__pycache__
+.idea
+ML/saved_models/
+ML/tb_runs/
+playground.ipynb
