@@ -75,9 +75,8 @@ The project is organized into several directories, each with a specific purpose:
   - Data splitting.  
   - Adding explainability to the analysis.
 
-## Note
-
-The **Results** directory contains the ready-to-use data after processing through the **Camera**, **Forces**, and other directories. Hence, most of the usable code for training and evaluation is under the **ML** directory.
+> **Note**  
+> The **Results** directory contains the ready-to-use data after processing through the **Camera**, **Forces**, and other directories. Hence, most of the usable code for training and evaluation is under the **ML** directory.
 
 ## Usage
 
