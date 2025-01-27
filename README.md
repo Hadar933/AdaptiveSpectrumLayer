@@ -42,10 +42,10 @@ Official PyTorch Implementation for the "A Deep Inverse-Mapping Model for a Flap
 The project is organized into several directories, each with a specific purpose:
 - **ML**  
   Implements core machine learning functionality using PyTorch. This includes:  
-  - Loss functions.  
+  - Preprocessed data from our flapping wing system.  
+  - A **Zoo** subdirectory with neural network implementations, including the Adaptive Spectrum Layer (ASL) and other architectures.
   - Dataset handling.  
   - Normalization and training utilities (e.g., fit, predict, evaluate).  
-  - A **Zoo** subdirectory with neural network implementations, including the Adaptive Spectrum Layer (ASL) and other architectures.
 
 - **Camera**  
   Handles raw image data and camera calibration. It includes scripts for:  
@@ -65,9 +65,6 @@ The project is organized into several directories, each with a specific purpose:
 - **LTSFLinear**  
   A fork of the primary paper implementation, this directory contains various neural network models, including NLinear, NLinear and FEDformer, for benchmarking.  
 
-
-- **Results**  
-  Stores processed datasets, including wing dynamics and force measurements. Data is organized by date for reproducibility and reference.
 
 - **Utilities**  
   Contains miscellaneous scripts for:  

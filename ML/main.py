@@ -39,13 +39,9 @@ if __name__ == '__main__':
     ltsf_autoformer_name = os.path.join('LTSF', 'Autoformer')
     ltsf_fedformer_name = os.path.join('LTSF', 'FedFormer')
 
-    # parent_dirname = r"E:\\Hadar\\experiments" if use_hard_drive else '../Results'
-    # force_filename = 'f19+f23_list_clean.pt' if data_name == 'ours' else 'forces_prssm.pt'
-    # kinematics_filename = 'k19+k23_list_clean.pt' if data_name == 'ours' else 'kinematics_prssm.pt'
-    # forces_path = os.path.join(parent_dirname, exp_time, force_filename)
-    forces_path = "/home/hadar/Thesis/Results/22_11_2023/f19+f23_list_clean.pt"
-    # kinematics_path = os.path.join(parent_dirname, exp_time, kinematics_filename)
-    kinematics_path = "/home/hadar/Thesis/Results/22_11_2023/k19+k23_list_clean.pt"
+   
+    forces_path = "./Data/forces_clean.pt"
+    kinematics_path = "./Data/kinematics_clean.pt"
     forces, kinematics = torch.load(forces_path), torch.load(kinematics_path)
     if isinstance(forces, list) and isinstance(kinematics, list):
         input_size, output_size = forces[0].shape[-1], kinematics[0].shape[-1]
