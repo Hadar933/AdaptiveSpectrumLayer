@@ -1,4 +1,4 @@
-# A Deep Inverse-Mapping Model For A Flapping Robotic Wing
+# A Deep Inverse-Mapping Model For A Flapping Robotic Wing (ICLR 2025)
 Official PyTorch Implementation for the "A Deep Inverse-Mapping Model for a Flapping Robotic Wing" Paper (ICLR 2025)
 
 <p align="center">
@@ -9,6 +9,23 @@ Official PyTorch Implementation for the "A Deep Inverse-Mapping Model for a Flap
         <img src="https://img.shields.io/badge/Dataset-Download-red" alt="Dataset">
     </a>
 </p>
+
+
+<div align="center">
+<figure>
+    <img src="assets/setup.png" alt="Wing System" />
+    <figcaption>
+        <b>Figure 1:</b> The experimental setup of our custom-built robotic flapping wing system, featuring force sensors and synchronized motion tracking cameras for data collection.
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="assets/architecture.png" alt="Model Architecture" />
+    <figcaption>
+        <b>Figure 2:</b> Overview of the proposed ASL architecture for Inverse-Mapping
+    </figcaption>
+</figure>
+</div>
 
 ## Setup
 
