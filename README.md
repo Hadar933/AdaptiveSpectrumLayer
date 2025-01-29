@@ -2,57 +2,57 @@
 Official PyTorch Implementation for the "A Deep Inverse-Mapping Model for a Flapping Robotic Wing" Paper (ICLR 2025)
 
 <p align="center">
-    <a href="https://openreview.net/forum?id=254NJe9JEw">
-      <img src="https://img.shields.io/badge/Paper-OpenReview-blue" alt="Paper">
-    </a>
-    <a href="https://drive.google.com/drive/folders/1lfZzpQKdhQHobq_rORQdAVFe87N-QJv3">
-        <img src="https://img.shields.io/badge/Dataset-Download-red" alt="Dataset">
-    </a>
+  <a href="https://openreview.net/forum?id=254NJe9JEw">
+    <img src="https://img.shields.io/badge/Paper-OpenReview-blue" alt="Paper">
+  </a>
+  <a href="https://drive.google.com/drive/folders/1lfZzpQKdhQHobq_rORQdAVFe87N-QJv3">
+    <img src="https://img.shields.io/badge/Dataset-Download-red" alt="Dataset">
+  </a>
 </p>
 
 
 <div align="center">
 <figure>
-    <img src="assets/setup.png" alt="Wing System" />
-    <figcaption>
-        <b>Figure 1:</b> The experimental setup of our custom-built robotic flapping wing system, featuring force sensors and synchronized motion tracking cameras for data collection.
-    </figcaption>
+  <img src="assets/setup.png" alt="Wing System" />
+  <figcaption>
+    <b>Figure 1:</b> The experimental setup of our custom-built robotic flapping wing system, featuring force sensors and synchronized motion tracking cameras for data collection.
+  </figcaption>
 </figure>
 
 <figure>
-    <img src="assets/architecture.png" alt="Model Architecture" />
-    <figcaption>
-        <b>Figure 2:</b> Overview of the proposed ASL architecture for Inverse-Mapping
-    </figcaption>
+  <img src="assets/architecture.png" alt="Model Architecture" />
+  <figcaption>
+    <b>Figure 2:</b> Overview of the proposed ASL architecture for Inverse-Mapping
+  </figcaption>
 </figure>
 </div>
 
 ## Setup
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/hadar933/AdaptiveSpectrumLayer.git
-    cd repo
-    ```
+  ```bash
+  git clone https://github.com/hadar933/AdaptiveSpectrumLayer.git
+  cd repo
+  ```
 
 2. Create a virtual environment and activate it:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
-    <details>
-    <summary>Optional: Configure the Python interpreter in VS Code</summary>
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
+  <details>
+  <summary>Optional: Configure the Python interpreter in VS Code</summary>
 
-    Configure the Python interpreter in VS Code:
-    - Press `Ctrl+Shift+P` to open the command palette.
-    - Type `Python: Create Environment` and select `venv`
+  Configure the Python interpreter in VS Code:
+  - Press `Ctrl+Shift+P` to open the command palette.
+  - Type `Python: Create Environment` and select `venv`
 
-    </details>
+  </details>
 
 3. Install the dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 ## Structure
 
@@ -155,4 +155,7 @@ If you find this code useful, consider citing our paper with:
 
 ## Acknowledgments
 
-We would like to thank our collaborators and funding agencies for their support.
+Special thanks to the following repositories and resources:
+- The paper "State-space aerodynamic model reveals high force control authority and predictability in flapping flight" [(arXiv)](https://arxiv.org/abs/2103.07994) by Yagiz E. Bayiz and Bo Cheng, for providing a strong structure to be compared against and a reliable open source dataset.
+- The repository [LTSF-Linear](https://github.com/cure-lab/LTSF-Linear) for their multiple architecture implementations.
+- [Beatus Lab](https://www.beatus-lab.org/), for providing the infrastructure and expertise to build such a unique experimental setup.
