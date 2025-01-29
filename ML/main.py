@@ -42,6 +42,7 @@ if __name__ == '__main__':
     forces_path = "./Data/forces_clean.pt" if data_name == "ours" else "./Data/forces_prssm.pt"
     kinematics_path = "./Data/kinematics_clean.pt" if data_name == "ours" else "./Data/kinematics_prssm.pt"
     forces, kinematics = torch.load(forces_path), torch.load(kinematics_path)
+    breakpoint()
     if isinstance(forces, list) and isinstance(kinematics, list):
         input_size, output_size = forces[0].shape[-1], kinematics[0].shape[-1]
     else:
@@ -77,7 +78,8 @@ if __name__ == '__main__':
     concat_adl = [False]
     per_freq_layer = [True, False]
     csd = [False]
-    freq_thresholds = [190, 200, 210]
+    freq_thresholds = [200]
+    
     seq2seq_params = ml_utils.generate_hyperparam_combinations(
         global_args=dict(feature_lags=feature_lags, batch_size=batch_sizes),
         model_args=dict(target_lags=target_lags, enc_embedding_size=embedding_sizes, enc_hidden_size=hidden_sizes,
