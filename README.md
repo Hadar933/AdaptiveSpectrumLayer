@@ -73,7 +73,10 @@ The project is organized into several directories, each with a specific purpose:
   - Adding explainability to the analysis.
 
 > **Note**  
-> The **Results** directory contains the ready-to-use data after processing through the **Camera**, **Forces**, and other directories. Hence, most of the usable code for training and evaluation is under the **ML** directory.
+>
+>The `Camera` and `Forces` directories are primarily included for clarity >and completeness. These directories were used to generate the already >ready-to-use data located in the `ML/Data` directory. Users can directly >utilize the data in `ML/Data` without needing to refer to the aformentioned dirs.
+
+> 
 
 ## Usage
 
