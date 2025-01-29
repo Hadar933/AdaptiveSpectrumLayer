@@ -145,8 +145,8 @@ if __name__ == '__main__':
         model_args_key=model_args_key
     )
 
-    used_hyperparams = seq2seq_params  # TODO: CHANGE THIS
-    model_class_name = seq2seq_name  # TODO: CHANGE THIS
+    used_hyperparams = seq2seq_params  # TODO: <---------------------------- CHANGE THIS TO RUN DIFFERENT MODELS
+    model_class_name = seq2seq_name    # TODO: <---------------------------- CHANGE THIS TO RUN DIFFERENT MODELS
 
     for i, hparams in enumerate(used_hyperparams):
         print('=' * 20 + f' Hyperparams iter #{i}/{len(used_hyperparams)} ' + '=' * 20)
