@@ -10,6 +10,24 @@ Official PyTorch Implementation for the "A Deep Inverse-Mapping Model for a Flap
     </a>
 </p>
 
+## Overview
+
+<p align="center">
+  <img src="assets/setup.png" width="800">
+  <br>
+  <em>Fig 1. Our experimental setup consisting of a robotic flapping wing system with integrated force sensors and high-speed cameras.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="assets/architecture.png" width="800">
+  <br>
+  <em>Fig 2. Architecture overview of our proposed inverse-mapping model with the Adaptive Spectrum Layer.</em>
+</p>
+
+<br>
+
 ## Setup
 
 1. Clone the repository:
@@ -58,10 +76,7 @@ The project is organized into several directories, each with a specific purpose:
 
 
 - **Utilities**  
-  Contains miscellaneous scripts for:  
-  - Plotting.  
-  - Data splitting.  
-  - Adding explainability to the analysis.
+  Contains miscellaneous scripts for plotting, data splitting, adding explainability to the analysis, etc.
 
 - **Camera**  
   Handles raw image data and camera calibration. It includes scripts for:  
