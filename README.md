@@ -5,8 +5,8 @@ Official PyTorch Implementation for the "A Deep Inverse-Mapping Model for a Flap
     <a href="https://openreview.net/forum?id=254NJe9JEw">
       <img src="https://img.shields.io/badge/Paper-OpenReview-blue" alt="Paper">
     </a>
-    <a href="https://paperswithcode.com/paper/a-deep-inverse-mapping-model-for-a-flapping">
-        <img src="https://img.shields.io/badge/Papers%20with%20Code-1234-green" alt="Papers with Code">
+    <a href="https://drive.google.com/drive/folders/1lfZzpQKdhQHobq_rORQdAVFe87N-QJv3">
+        <img src="https://img.shields.io/badge/Dataset-Download-red" alt="Dataset">
     </a>
 </p>
 
