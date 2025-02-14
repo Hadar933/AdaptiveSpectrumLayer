@@ -145,12 +145,14 @@ You can also access these datasets via this [link](https://drive.google.com/driv
 
 If you find this code useful, consider citing our paper with:
 ```bibtex
-@inproceedings{sharvit2025deepinversemappingmodelflapping,
-  title={A Deep Inverse-Mapping Model for a Flapping Robotic Wing},
-  author={Hadar Sharvit and Raz Karl and Tsevi Beatus},
-  booktitle={International Conference on Learning Representations},
-  year={2025},
-  url={https://openreview.net/forum?id=254NJe9JEw}
+@misc{sharvit2025deepinversemappingmodelflapping,
+      title={A Deep Inverse-Mapping Model for a Flapping Robotic Wing}, 
+      author={Hadar Sharvit and Raz Karl and Tsevi Beatus},
+      year={2025},
+      eprint={2502.09378},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2502.09378}, 
 }
 ```
 
