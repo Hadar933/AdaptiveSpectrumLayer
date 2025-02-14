@@ -2,8 +2,8 @@
 Official PyTorch Implementation for the "A Deep Inverse-Mapping Model for a Flapping Robotic Wing" Paper (ICLR 2025)
 
 <p align="center">
-  <a href="https://openreview.net/forum?id=254NJe9JEw">
-    <img src="https://img.shields.io/badge/Paper-OpenReview-blue" alt="Paper">
+  <a href="https://arxiv.org/abs/2502.09378">
+    <img src="https://img.shields.io/badge/Paper-arXiv-blue" alt="Paper">
   </a>
   <a href="https://drive.google.com/drive/folders/1lfZzpQKdhQHobq_rORQdAVFe87N-QJv3">
     <img src="https://img.shields.io/badge/Dataset-Download-red" alt="Dataset">
