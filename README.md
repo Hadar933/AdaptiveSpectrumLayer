@@ -146,12 +146,12 @@ You can also access these datasets via this [link](https://drive.google.com/driv
 If you find this code useful, consider citing our paper with:
 ```bibtex
 @inproceedings{
-sharvit2025a,
-title={A deep inverse-mapping model for a flapping robotic wing},
-author={Hadar Sharvit and Raz Karl and Tsevi Beatus},
-booktitle={The Thirteenth International Conference on Learning Representations},
-year={2025},
-url={https://openreview.net/forum?id=254NJe9JEw}
+  sharvit2025a,
+  title={A deep inverse-mapping model for a flapping robotic wing},
+  author={Hadar Sharvit and Raz Karl and Tsevi Beatus},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  url={https://openreview.net/forum?id=254NJe9JEw}
 }
 ```
 
