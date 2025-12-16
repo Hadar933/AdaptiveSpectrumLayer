@@ -121,8 +121,6 @@ Our dataset was collected using a custom-built robotic flapping wing system (sho
 
 The data is sampled at a rate of $5000 \texttt{Hz}$.
 
-[Image placeholder - will be added]
-
 ### Open Source Datasets
 
 We also provide support for previously published datasets to enable direct comparison with existing work. These include:
